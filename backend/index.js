@@ -18,7 +18,7 @@ app.use (cors());
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://kaurprabhnoor202:WMtfgJyrn33y27hb@cluster0.ykxxzsf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/FoodDelivery')
+mongoose.connect('mongodb+srv://kaurprabhnoor202_db_user:Pak8r9ywQaV66cDX@cluster0.d2yzbcd.mongodb.net/noorie?appName=Cluster0')
   .then(() => console.log('Connected!'));
 
   app.get("/",(request, response ) =>{
